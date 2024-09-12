@@ -1,1 +1,88 @@
-
+<div class="flex items-center -mt-2 lg:mt-1 sm:mt-0 mx-2 lg:mx-0 sm:mx-2">
+      <img
+        :src="getImagePromo(detailPromotion.images)"
+        :alt="detailPromotion.name"
+        class="w-full h-full object-fill rounded-lg bg-gray-900"
+      />
+    </div>
+    <div class="flex text-center justify-center mt-2">
+      <h2 class="font-bold text-gray-50">{{ detailPromotion.name }}</h2>
+    </div>
+    <div class="flex items-center justify-center text-center mt-10">
+      <div class="max-w-[1080px] mx-1 lg:mx-auto sm:mx-2 overflow-x-auto overflow-hidden">
+        <table class="w-full text-center table-auto min-w-max">
+          <thead>
+            <tr>
+              <th class="px-4 py-2 w-52 border border-black bg-[#7a1a7a]">
+                <p class="text-sm font-bold leading-none text-gray-50 italic">PRODUK</p>
+              </th>
+              <th class="px-4 py-2 w-52 border border-black bg-[#7a1a7a]">
+                <p class="text-sm font-bold leading-none text-gray-50 italic">BONUS</p>
+              </th>
+              <th class="px-4 py-2 w-52 border border-black bg-[#7a1a7a]">
+                <p class="text-sm font-bold leading-none text-gray-50 italic">MAKS BONUS</p>
+              </th>
+              <th class="px-4 py-2 w-52 border border-black bg-[#7a1a7a]">
+                <p class="text-sm font-bold leading-none text-gray-50 italic">TURNOVER</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="p-4 py-2 border border-black">
+                <p class="text-sm text-gray-50 font-bold italic">SLOT GAME</p>
+              </td>
+              <td class="p-4 py-2 border border-black">
+                <p class="text-sm text-gray-50 font-bold italic">100%</p>
+              </td>
+              <td class="p-4 py-2 border border-black">
+                <p class="text-sm text-gray-50 font-bold italic">IDR 300,000</p>
+              </td>
+              <td class="p-4 py-2 border border-black">
+                <p class="text-sm text-gray-50 font-bold italic">TO X15</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="flex flex-col items-start justify-start mt-4 mx-2 lg:mx-16 sm:mx-3">
+      <p class="text-sm text-gray-50 font-semibold">Contoh Hitungan :</p>
+      <ol class="list-none -space-y-1">
+        <li class="text-sm text-gray-50">Deposit 100.000 + Bonus 100% = 200,000</li>
+        <li class="text-sm text-gray-50">200,000 x Turnover 15 = 3.000.000</li>
+        <li class="text-sm text-gray-50">(Turnover yg wajib dicapai untuk bisa withdraw)</li>
+      </ol>
+    </div>
+    <div class="flex text-center justify-center mt-3">
+      <h2 class="font-bold text-gray-50">BONUS NEW MEMBER 100% KHUSUS SLOT</h2>
+    </div>
+    <div class="flex flex-col items-start justify-start mt-4 mx-2 lg:mx-16 sm:mx-3">
+      <p class="text-sm text-gray-50 font-semibold">Syarat & Ketentuan :</p>
+      <ol class="list-decimal -space-y-1">
+        <li class="text-sm text-gray-50">
+          Bonus New Member 100% hanya berlaku di permainan Slot Pragmatic Play & PG Soft
+        </li>
+        <li class="text-sm text-gray-50">
+          Bonus ini tidak berlaku pada permainan Classic Slot / permainan slot 3 baris
+        </li>
+        <li class="text-sm text-gray-50">
+          Minimal deposit Rp 50.000 & maksimal bonus yg diberikan sebesar Rp 300.000
+        </li>
+        <li class="text-sm text-gray-50">
+          Bonus bisa diclaim setelah deposit masuk sebelum saldo dimainkan
+        </li>
+        <li class="text-sm text-gray-50">
+          Tidak berlaku jika ada kesamaan data rekening, IP luar Indonesia & kesamaan IP
+        </li>
+        <li class="text-sm text-gray-50">Syarat turnover yg harus dicapai sebesar 15 x</li>
+        <li class="text-sm text-gray-50">Maksimal withdraw 10 x dari jumlah deposit & bonus</li>
+        <li class="text-sm text-gray-50">
+          Untuk member yang klaim bonus 100% maka tidak mendapatkan bonus mingguan
+        </li>
+        <li class="text-sm text-gray-50">
+          Apabila ada indikasi kecurangan seperti gantung spin atau kecurangan lain nya akun akan di
+          bekukan secara permanent.
+        </li>
+      </ol>
+    </div>
